@@ -1,0 +1,49 @@
+body{
+  background-color: rgb aliceblue;
+  }
+  td, th {
+  border: 1px solid #d2f1ff;
+  text-align: left;
+  padding: 8px;
+  font-family: 'Cormorant', serif;
+  
+}
+#camilasbook{
+text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #d2f1ff;
+}
+h1 {font-family: 'Noto Serif KR', serif;
+background-color:#d2f1ff;
+  }
+#ChocolateCake{
+  float:right;
+}
+#CherryCake {
+   float:right;
+  
+}
+#pumpkin{
+  float:right;
+}
+/*the color will depend on the recipe #a4dbff*body{
+  background-color: rgb aliceblue;
+  }
+  td, th {
+  border: 1px solid #d2f1ff;
+  text-align: left;
+  padding: 8px;
+  font-family: 'Cormorant', serif;
+}
+#camilasbook{
+text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #d2f1ff;
+}
+h1 {font-family: 'Noto Serif KR', serif;
+background-color:#d2f1ff;
+  }
+
+/*the color will depend on the recipe #a4dbff*/

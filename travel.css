@@ -1,0 +1,44 @@
+h2 {
+  Color: rgb(0, 128, 232);
+  text-align: center;
+  background-color: paleturquoise;
+}
+h1{
+  Color:rgb(54, 168, 184);
+  text-align: center;
+  background-color:paleturquoise;
+}
+#listb{
+  float:right; 
+}
+#tadfood{
+  clear: both;
+}
+#foodscool{
+  float: right;
+
+}
+#TraditionalFoods{
+clear: both;
+}
+
+
+#waterlands{
+  float: right;
+}
+#lista{
+   float:left;
+}
+#besthotels{
+  clear: both;
+}
+#ingl{
+float:right;
+}
+body{
+  background-color:cornflowerblue;
+  font-family: 'Playfair Display', serif;
+}
+#ppp{
+ float:left; 
+}

@@ -1,0 +1,43 @@
+body{
+  background-color:rgb(1, 23, 63);
+  }
+h1{
+  Color: rgb(240, 148, 95);
+  text-align: center;
+  background-color:rgb(68, 28, 121);
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 40px;
+}
+h2{
+  Color: rgb(33, 106, 148);
+  background-color:  rgb(240, 148, 95);
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 30px;
+   clear: both;
+}
+p{
+
+  font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            Color:rgb(33, 106, 148);
+}
+
+#htmlll{
+  float:right;
+  clear: both;
+
+}
+#csss{
+  float:right;
+  clear: both;
+}
+div {/*for the boxes, have difrent haights and fonts */
+  background-color:rgb(240, 148, 95);
+  width: 500px;
+  border: 20px solid rgb(68, 28, 121); 
+  padding: 25px;
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            Color:rgb(33, 106, 148);
+
