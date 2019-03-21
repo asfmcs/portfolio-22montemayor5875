@@ -21,29 +21,32 @@ body {
   overflow-x: hidden;
 }
 
-
 /* Side navigation links */
 .sidenav a {
   color: white;
   padding: 16px;
   text-decoration: none;
   display: block;
+  font-family: 'Exo 2', sans-serif;
 }
 
 /* Change color on hover */
 .sidenav a:hover {
   background-color: #ddd;
   color:  rgb(209, 160, 0);
+  font-family: 'Exo 2', sans-serif;
 }
 
 /* Style the content */
 .content {
   margin-left: 200px;
   padding-left: 20px;
+  font-family: 'Arvo', serif;
 }
 
 h2{
   color: rgb(209, 160, 0);
+  font-family: 'Exo 2', sans-serif;
 }
 
 h1{
