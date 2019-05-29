@@ -1,0 +1,123 @@
+
+<html>
+<head>
+<title> Gold Medal for Outstandi</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://static.codehs.com/gulp/ec071a764d83f34910ba21fab0b0f0cc20293542/chs-js-lib/chs.js"></script>
+
+
+<style>
+canvas {
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+pre {
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+</style>
+
+</head>
+
+<body>
+<h1> Gold Medal for Outstandi</h1>
+
+
+
+<canvas
+width="400"
+height="500"
+class="codehs-editor-canvas"></canvas>
+<pre id="console"></pre>
+
+<script>
+window.onload = function() {
+
+    function start(){
+var rect = new Rectangle(50, 350);
+rect.setPosition(165, 0);
+rect.setColor(Color.blue);
+add(rect);
+
+var rectt = new Rectangle(50, 150);
+rectt.setPosition(55, 0);
+rectt.setColor(Color.blue);
+add(rectt);
+
+
+var recttt = new Rectangle(50, 150);
+recttt.setPosition(270, 0);
+recttt.setColor(Color.blue);
+add(recttt);
+
+var txt = new Text("Silver", "30pt Arial");
+txt.setPosition(55, 117);
+add(txt);
+
+var txtt = new Text("Gold", "30pt Arial");
+txtt.setPosition(150, 289);
+add(txtt);
+
+var tx = new Text("Bronze", "30pt Arial");
+tx.setPosition(230, 117);
+add(tx);
+var copter = new WebImage("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/400px-Olympic_rings_without_rims.svg.png");
+copter.setSize(50, 20);
+copter.setPosition(165, 240);
+add(copter); 
+
+var copte = new WebImage("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/400px-Olympic_rings_without_rims.svg.png");
+copte.setSize(50, 20);
+copte.setPosition(55, 55);
+add(copte);
+
+var copterr = new WebImage("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/400px-Olympic_rings_without_rims.svg.png");
+copterr.setSize(50, 20);
+copterr.setPosition(270, 55);
+add(copterr);
+
+var sillver = new Color(192,192,192);
+var circle = new Circle(60); 
+add(circle); 
+var x = circle.getX(100); 
+var y = circle.getY(200);
+circle.setPosition(80, 178);
+circle.setColor(sillver);
+
+var goold = new Color( 212, 175, 55);
+var circlell = new Circle(60); 
+add(circlell); 
+var x = circlell.getX(100); 
+var y = circlell.getY(200);
+circlell.setPosition(189, 350);
+circlell.setColor(goold);
+
+var brown = new Color(139, 69, 19);
+var circl = new Circle(60); 
+add(circl); 
+var x = circl.getX(100); 
+var y = circl.getY(200);
+circl.setPosition(300, 178);
+circl.setColor(brown);
+
+    
+
+
+}
+
+
+    if (typeof start === 'function') {
+        start();
+    }
+};
+</script>
+
+</body>
+</html>
